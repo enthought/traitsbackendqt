@@ -1,1 +1,1 @@
-Search.setIndex({objects:{},terms:{enthought:0,backend:0,traitsbackendqt:0,work:0,content:0,also:0,thi:0,traitsgui:0,document:0,welcom:0},objtypes:{},titles:["Welcome to the TraitsBackendQt documentation!"],objnames:{},filenames:["index"]})
+Search.setIndex({objects:{},terms:{enthought:0,also:0,welcom:0,work:0,content:0,traitsbackendqt:0,thi:0,traitsgui:0,document:0,backend:0},objtypes:{},titles:["Welcome to the TraitsBackendQt documentation!"],objnames:{},filenames:["index"]})

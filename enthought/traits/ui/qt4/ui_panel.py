@@ -20,6 +20,8 @@ import cgi
 import re
 
 from enthought.qt import QtCore, QtGui, QtWebKit
+import os
+qt_api = os.environ.get('QT_API', 'pyqt')
 
 from enthought.traits.api \
     import Any, Instance, Undefined
@@ -923,7 +925,10 @@ class _GroupPanel(object):
             elif isinstance(w, QtGui.QLayout):
                 layout.addLayout(w)
             else:
-                layout.addItem(w)
+                if qt_api == 'pyqt':
+                    layout.addItem(w)
+                else:
+                    layout.addWidget(w)
 
         else:
             if self.direction == QtGui.QBoxLayout.LeftToRight:
